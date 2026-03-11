@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acuaponía Escolar · Seguimiento e Investigación</title>
+  <meta name="description" content="Plataforma escolar de acuaponía para 1° medio en Chile: aprendizaje biológico, registro diario, análisis de temperatura, peces, plantas, realidad aumentada y realidad virtual." />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="color-scheme" content="dark light" />
+  <meta property="og:title" content="Acuaponía Escolar · Seguimiento e Investigación" />
+  <meta property="og:description" content="Aprende el proceso biológico de la acuaponía, registra datos diarios y analiza el comportamiento de la temperatura con peces y plantas." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://TU-USUARIO.github.io/acuaponia-escolar/" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Acuaponía Escolar · Seguimiento e Investigación",
+    "description": "Sitio educativo para enseñanza media en Chile orientado al aprendizaje de acuaponía, monitoreo y análisis de datos.",
+    "educationalLevel": "1° medio",
+    "inLanguage": "es-CL",
+    "audience": {
+      "@type": "EducationalAudience",
+      "educationalRole": "student"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="topbar glass">
+    <div class="brand-wrap">
+      <img src="assets/icon.svg" alt="Logo Acuaponía Escolar" class="logo" />
+      <div>
+        <p class="eyebrow">🌿 Proyecto pedagógico para 1° medio · Chile</p>
+        <h1>Acuaponía Escolar <span>· Seguimiento e Investigación</span></h1>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <button id="menuToggle" class="icon-btn mobile-only" aria-label="Abrir navegación">☰</button>
+      <button id="accessToggle" class="icon-btn" aria-expanded="false" aria-controls="accessPanel" title="Herramientas de accesibilidad">⚙️</button>
+    </div>
+  </header>
+
+  <nav id="mainNav" class="main-nav glass" aria-label="Principal">
+    <a href="#inicio">Inicio</a>
+    <a href="#proceso">Proceso biológico</a>
+    <a href="#innovacion">Innovación y temperatura</a>
+    <a href="#laboratorio">Laboratorio</a>
+    <a href="#registro">Registro diario</a>
+    <a href="#graficos">Gráficos</a>
+    <a href="#inmersion">VR · AR · 3D</a>
+    <a href="#evaluacion">Evaluación</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+
+  <aside id="accessPanel" class="access-panel glass" hidden>
+    <h2>Accesibilidad</h2>
+    <div class="access-grid">
+      <button data-action="toggle-theme">🌓 Tema</button>
+      <button data-action="font-plus">A+</button>
+      <button data-action="font-minus">A−</button>
+      <button data-action="font-reset">A=</button>
+      <button data-action="toggle-dyslexia">🔤 Fuente legible</button>
+      <button data-action="toggle-contrast">🌓 Alto contraste</button>
+      <button data-action="speak">🗣️ Leer página</button>
+      <button data-action="stop-speak">⏹️ Detener voz</button>
+      <button data-action="toggle-motion">✨ Menos animación</button>
+      <button data-action="toggle-highlight-links">🔗 Resaltar enlaces</button>
+    </div>
+  </aside>
+
+  <main id="contenido">
+    <section id="inicio" class="hero section">
+      <div class="hero-copy">
+        <span class="pill">🔬 Ciencia + tecnología + sostenibilidad</span>
+        <h2>Aprender acuaponía desde la observación, el dato y la experiencia inmersiva</h2>
+        <p>
+          Este sitio enseña cómo funciona un sistema acuapónico escolar: peces, bacterias nitrificantes,
+          plantas, agua, temperatura y monitoreo diario. Está pensado para estudiantes de <strong>1° medio</strong>
+          que investigan ecosistemas, interacciones biológicas, flujos de materia y energía, y el uso de sensores
+          para resolver problemas reales.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#registro">📘 Registrar datos</a>
+          <a class="btn secondary" href="#graficos">📈 Ver gráficos</a>
+          <a class="btn secondary" href="#inmersion">🥽 Explorar VR/AR</a>
+        </div>
+        <ul class="hero-tags" aria-label="Temas principales">
+          <li>🐟 Peces</li>
+          <li>🦠 Bacterias</li>
+          <li>🌱 Plantas</li>
+          <li>🌡️ Temperatura</li>
+          <li>📊 Investigación</li>
+          <li>📱 Accesibilidad</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual glass card-glow">
+        <div class="system-diagram" aria-label="Diagrama simplificado de acuaponía">
+          <div class="node fish">🐟 Tanque de peces</div>
+          <div class="arrow">⬇</div>
+          <div class="node bio">🦠 Biofiltro bacteriano</div>
+          <div class="arrow">⬇</div>
+          <div class="node plants">🌱 Cama de cultivo</div>
+          <div class="arrow">↺</div>
+          <div class="node water">💧 Retorno de agua</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section curriculum">
+      <div class="section-title">
+        <p class="eyebrow">Alineación formativa</p>
+        <h2>Conexión con Ciencias Naturales de 1° medio</h2>
+      </div>
+      <div class="grid-3">
+        <article class="glass card">
+          <h3>🌎 Ecosistemas e interacciones</h3>
+          <p>Reconocer organismos, poblaciones, comunidades e interacciones biológicas dentro de un sistema acuapónico escolar.</p>
+        </article>
+        <article class="glass card">
+          <h3>♻️ Ciclos y flujos</h3>
+          <p>Comprender cómo circulan el nitrógeno, el agua y la energía en un sistema vivo-tecnológico conectado.</p>
+        </article>
+        <article class="glass card">
+          <h3>📏 Investigación escolar</h3>
+          <p>Medir temperatura, registrar datos, formular hipótesis, construir gráficos e interpretar patrones observados.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="proceso" class="section">
+      <div class="section-title">
+        <p class="eyebrow">Base conceptual</p>
+        <h2>¿Cómo funciona el proceso biológico?</h2>
+      </div>
+      <div class="grid-2">
+        <article class="glass card card-accent">
+          <h3>1. Peces y alimentación</h3>
+          <p>Los peces liberan desechos al agua. Estos aportes generan compuestos nitrogenados que, si se acumulan, pueden afectar su bienestar.</p>
+        </article>
+        <article class="glass card card-accent">
+          <h3>2. Bacterias nitrificantes</h3>
+          <p>Las bacterias transforman el amonio en nitritos y luego en nitratos, formas más aprovechables para las plantas.</p>
+        </article>
+        <article class="glass card card-accent">
+          <h3>3. Plantas como biofiltro vivo</h3>
+          <p>Las raíces absorben nutrientes del agua y ayudan a mantener el sistema más equilibrado.</p>
+        </article>
+        <article class="glass card card-accent">
+          <h3>4. Recirculación</h3>
+          <p>El agua vuelve al tanque, cerrando el ciclo. El monitoreo constante permite detectar variaciones relevantes.</p>
+        </article>
+      </div>
+
+      <div class="callout glass">
+        <strong>Pregunta de investigación:</strong>
+        ¿Cómo cambia la temperatura del agua durante la semana y qué relación parece tener con el comportamiento de los peces, la alimentación y el estado de las plantas?
+      </div>
+    </section>
+
+    <section id="innovacion" class="section">
+      <div class="section-title">
+        <p class="eyebrow">Innovación escolar</p>
+        <h2>Medición de temperatura y observación del sistema</h2>
+      </div>
+      <div class="grid-2">
+        <div class="glass card">
+          <h3>🌡️ ¿Por qué medir la temperatura?</h3>
+          <ul class="check-list">
+            <li>Puede modificar la actividad y apetito de los peces.</li>
+            <li>Influye en procesos biológicos del agua.</li>
+            <li>Permite comparar mañanas, tardes y días fríos o calurosos.</li>
+            <li>Ayuda a tomar decisiones de manejo escolar basadas en evidencia.</li>
+          </ul>
+        </div>
+        <div class="glass card">
+          <h3>🧠 Lo que investigamos</h3>
+          <ul class="check-list">
+            <li>Temperatura del agua</li>
+            <li>Temperatura ambiente</li>
+            <li>Estado de alimentación</li>
+            <li>Observación de peces</li>
+            <li>Crecimiento o estado de plantas</li>
+            <li>Comentarios del día</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline glass">
+        <div><span>1</span><p>Medir</p></div>
+        <div><span>2</span><p>Registrar</p></div>
+        <div><span>3</span><p>Graficar</p></div>
+        <div><span>4</span><p>Interpretar</p></div>
+        <div><span>5</span><p>Proponer mejoras</p></div>
+      </div>
+    </section>
+
+    <section id="laboratorio" class="section">
+      <div class="section-title">
+        <p class="eyebrow">Exploración guiada</p>
+        <h2>Laboratorio de aprendizaje</h2>
+      </div>
+      <div class="grid-3">
+        <article class="glass card">
+          <h3>🧪 Hipótesis</h3>
+          <p>Formula una predicción sobre la relación entre temperatura y conducta de los peces.</p>
+          <textarea class="mini-area" placeholder="Ejemplo: Cuando la temperatura baja, los peces comen menos y se mueven menos."></textarea>
+        </article>
+        <article class="glass card">
+          <h3>🔎 Variables</h3>
+          <p>Identifica variable independiente, dependiente y variables de control.</p>
+          <details>
+            <summary>Ver ejemplo</summary>
+            <p>Independiente: temperatura del agua. Dependiente: conducta observable o alimentación. Control: horario, cantidad de alimento, especie de pez.</p>
+          </details>
+        </article>
+        <article class="glass card">
+          <h3>📝 Conclusión</h3>
+          <p>Redacta una conclusión breve en base a la evidencia recogida.</p>
+          <textarea class="mini-area" placeholder="Escribe aquí tu conclusión..."></textarea>
+        </article>
+      </div>
+    </section>
+
+    <section id="registro" class="section">
+      <div class="section-title">
+        <p class="eyebrow">Seguimiento diario</p>
+        <h2>Registrar datos del sistema</h2>
+      </div>
+
+      <div class="glass form-card">
+        <form id="dailyForm" class="data-form">
+          <div class="form-grid">
+            <label>
+              Fecha
+              <input type="date" name="fecha" required />
+            </label>
+            <label>
+              Curso
+              <input type="text" name="curso" value="1° medio" required />
+            </label>
+            <label>
+              Equipo / estudiante
+              <input type="text" name="equipo" placeholder="Ej.: Equipo Agua 1" required />
+            </label>
+            <label>
+              Temperatura del agua (°C)
+              <input type="number" step="0.1" name="tempAgua" placeholder="Ej.: 18.4" required />
+            </label>
+            <label>
+              Temperatura ambiente (°C)
+              <input type="number" step="0.1" name="tempAmbiente" placeholder="Ej.: 16.8" required />
+            </label>
+            <label>
+              Alimentación
+              <select name="alimentacion" required>
+                <option value="">Selecciona</option>
+                <option>Alta</option>
+                <option>Media</option>
+                <option>Baja</option>
+                <option>No se alimentó</option>
+              </select>
+            </label>
+            <label>
+              Comportamiento de peces
+              <select name="peces" required>
+                <option value="">Selecciona</option>
+                <option>Muy activos</option>
+                <option>Activos</option>
+                <option>Normales</option>
+                <option>Lentos</option>
+                <option>Muy lentos</option>
+              </select>
+            </label>
+            <label>
+              Estado de plantas
+              <select name="plantas" required>
+                <option value="">Selecciona</option>
+                <option>Muy bueno</option>
+                <option>Bueno</option>
+                <option>Regular</option>
+                <option>Débil</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            Observaciones
+            <textarea name="observaciones" rows="4" placeholder="Anota cambios, dudas, hallazgos o situaciones del día."></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button type="submit" class="btn primary">💾 Guardar registro</button>
+            <button type="button" id="saveLocalBtn" class="btn secondary">🗂️ Guardar local</button>
+            <button type="button" id="exportCsvBtn" class="btn secondary">📤 Exportar CSV</button>
+          </div>
+
+          <p class="helper-text">Este formulario puede enviar los datos a Google Sheets mediante Google Apps Script y, además, guardar copias en el navegador para no perder registros.</p>
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="graficos" class="section">
+      <div class="section-title">
+        <p class="eyebrow">Visualización</p>
+        <h2>Panel de gráficos escolares</h2>
+      </div>
+      <div class="charts-grid">
+        <article class="glass card chart-card">
+          <h3>Temperatura del agua</h3>
+          <canvas id="waterChart" aria-label="Gráfico de temperatura del agua"></canvas>
+        </article>
+        <article class="glass card chart-card">
+          <h3>Temperatura ambiente</h3>
+          <canvas id="airChart" aria-label="Gráfico de temperatura ambiente"></canvas>
+        </article>
+      </div>
+      <div class="glass table-card">
+        <div class="table-head">
+          <h3>Últimos registros</h3>
+          <button id="clearLocalDataBtn" class="btn danger">🗑️ Limpiar datos locales</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Fecha</th>
+                <th>Equipo</th>
+                <th>Agua</th>
+                <th>Ambiente</th>
+                <th>Peces</th>
+                <th>Plantas</th>
+              </tr>
+            </thead>
+            <tbody id="recordsBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="inmersion" class="section">
+      <div class="section-title">
+        <p class="eyebrow">Experiencias inmersivas</p>
+        <h2>De la realidad al 3D, AR y VR</h2>
+      </div>
+      <div class="grid-3">
+        <article class="glass card action-card">
+          <h3>👁️ Vista 3D</h3>
+          <p>Explora el sistema acuapónico en una escena interactiva con sus componentes principales.</p>
+          <a class="btn primary block" href="pages/viewer3d.html">Abrir visor 3D</a>
+        </article>
+        <article class="glass card action-card">
+          <h3>📱 Realidad Aumentada</h3>
+          <p>Usa el celular para visualizar una maqueta informativa sobre el flujo del agua y del nitrógeno.</p>
+          <a class="btn primary block" href="pages/viewerAR.html">Abrir experiencia AR</a>
+        </article>
+        <article class="glass card action-card">
+          <h3>🥽 Realidad Virtual</h3>
+          <p>Recorre un laboratorio escolar virtual con estaciones de observación y preguntas guiadas.</p>
+          <a class="btn primary block" href="pages/viewerVR.html">Abrir experiencia VR</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="evaluacion" class="section">
+      <div class="section-title">
+        <p class="eyebrow">Evidencia de aprendizaje</p>
+        <h2>Autoevaluación rápida</h2>
+      </div>
+      <div class="quiz glass">
+        <div class="question" data-answer="b">
+          <p><strong>1.</strong> ¿Qué organismo transforma compuestos nitrogenados en el biofiltro?</p>
+          <label><input type="radio" name="q1" value="a"> Las raíces</label>
+          <label><input type="radio" name="q1" value="b"> Las bacterias nitrificantes</label>
+          <label><input type="radio" name="q1" value="c"> Solo los peces</label>
+        </div>
+        <div class="question" data-answer="c">
+          <p><strong>2.</strong> ¿Qué dato ayuda a relacionar bienestar de peces y condiciones del sistema?</p>
+          <label><input type="radio" name="q2" value="a"> Solo el color del tanque</label>
+          <label><input type="radio" name="q2" value="b"> Solo el tamaño de las hojas</label>
+          <label><input type="radio" name="q2" value="c"> La temperatura del agua y las observaciones</label>
+        </div>
+        <div class="question" data-answer="a">
+          <p><strong>3.</strong> La acuaponía combina principalmente:</p>
+          <label><input type="radio" name="q3" value="a"> Acuicultura e hidroponía</label>
+          <label><input type="radio" name="q3" value="b"> Reciclaje y electricidad</label>
+          <label><input type="radio" name="q3" value="c"> Suelo y combustibles</label>
+        </div>
+        <button id="quizBtn" class="btn primary">✅ Revisar respuestas</button>
+        <p id="quizResult" class="form-message" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="section-title">
+        <p class="eyebrow">Preguntas frecuentes</p>
+        <h2>FAQ del proyecto</h2>
+      </div>
+      <div class="faq-grid">
+        <details class="glass card">
+          <summary>¿El sitio funciona en GitHub Pages?</summary>
+          <p>Sí. Está diseñado como sitio estático HTML, CSS y JavaScript sin backend propio. Para guardar en Google Sheets se usa Google Apps Script.</p>
+        </details>
+        <details class="glass card">
+          <summary>¿Se puede adaptar a sensores reales?</summary>
+          <p>Sí. Puedes conectar lecturas de ESP32 o ESP8266 mediante Apps Script, una API externa o archivos JSON.</p>
+        </details>
+        <details class="glass card">
+          <summary>¿Sirve para tablet, celular y PC?</summary>
+          <p>Sí. Tiene diseño responsive, tema claro/oscuro, mejoras de accesibilidad y puede instalarse como PWA.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer glass">
+    <div>
+      <strong>Acuaponía Escolar · Seguimiento e Investigación</strong>
+      <p>Sitio educativo para enseñanza media en Chile. Diseñado para aprender, registrar, analizar y proyectar experiencias reales e inmersivas.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#registro">Registro</a>
+      <a href="#inmersion">VR/AR</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
